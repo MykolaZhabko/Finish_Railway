@@ -5,11 +5,15 @@
 
 body {
     display: flex;
-    background-color: rgb(128, 148, 196);
+    background-image: linear-gradient(to bottom right, rgb(25, 109, 115), yellow);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .one {
     width: 50%;
+    margin: auto;
 }
 
 .two {
@@ -17,6 +21,28 @@ body {
 }
 
 #rails th,
+th,
 td {
-    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+a {
+    color: rgb(9, 62, 128);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #0f5f12;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #c7d4bf;
 }
